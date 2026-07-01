@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6c0044/v1
+canonical_location: https://kanripo.org/bkk/KR6c0044/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛般若波羅蜜經略疏
+  identifiers:
+    alt_id:
+    - T33n1704
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T33/T33n1704.xml
+    old_id: T33n1704
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0044_000.yaml, hash: 'sha256:259283910379c02ff1008a5d900539ee4ce48c24ec4e2cb5655abd8eeb4dd9d8'}
+  - {seq: 1, filename: KR6c0044_001.yaml, hash: 'sha256:702a585bc75f2099a9bac257ba7722bce3a4a1bcdd25dc6f446a5023b345896e'}
+  - {seq: 2, filename: KR6c0044_002.yaml, hash: 'sha256:61c4acaffba676255a8dce9140574248b8f281cd908fd93fe1d98b0916fa1346'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0044_001.markers.yaml, hash: 'sha256:5fdccf93f30a9d982eac37fd11f7ee38f9b160a3afd44715520ec7a759abf085'}
+  - {seq: 2, role: markers, filename: assets/KR6c0044_002.markers.yaml, hash: 'sha256:4ff952b969e564fee206f78860fa1951a95b47c1598ed538fa3d1401c3e0d6ef'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0044_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11428
+  label: '佛說金剛般若波羅蜜經略疏
+
+    卷上'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0044_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 6344
+  label: '佛說金剛般若波羅蜜經略疏
+
+    卷下'
+  type: juan
+  level: 1
+hash: sha256:fa70616e81d4f566e4a5c8cb08fa698a864da61487276d743b6a7f4d03a18cb8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
